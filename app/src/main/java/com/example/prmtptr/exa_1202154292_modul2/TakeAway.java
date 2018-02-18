@@ -40,15 +40,15 @@ public class TakeAway extends AppCompatActivity {
         startActivity(v);
     }
 
-   // public void showDatePickerDialog(View v) {
-     //   DialogFragment newFragment = new DatePickerFragment();
-       // newFragment.show(getSupportFragmentManager(), getString(R.string.date_picker));
-//    }
-
-  //  public void showTimePickerDialog(View view) {
-    //    DialogFragment newFragment = new TimePickerFragment();
-      //  newFragment.show(getSupportFragmentManager(), getString(R.string.time_picker));
+ //   public void showDatePickerDialog(View v) {
+   //     DialogFragment newFragment = new DatePickerFragment();
+     //   newFragment.show(getSupportFragmentManager(), getString(R.string.date_picker));
     //}
+
+ //   public void showTimePickerDialog(View view) {
+ //     DialogFragment newFragment = new TimePickerFragment();
+ //     newFragment.show(getSupportFragmentManager(), getString(R.string.time_picker));
+  //  }
 
 
 

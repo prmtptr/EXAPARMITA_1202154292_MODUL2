@@ -30,21 +30,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         gambar = gmbr;
     }
 
-   // @Override
-    //public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-      //  return null;
-   // }
-
-    //@Override
-    //public void onBindViewHolder(ViewHolder holder, int position) {
-
-    //}
-
-    //@Override
-    //public int getItemCount() {
-      //  return 0;
-    //}
-
     public class ViewHolder extends RecyclerView.ViewHolder {
         //menggunakan integer dan string untuk setiap data
         public TextView tvTitle;
@@ -75,7 +60,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("harga", rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar", gambar.get(getAdapterPosition()));
                             ingredient = "gula, air, madu";
-                            intent.putExtra("Komposisi", ingredient);
+                            intent.putExtra("komposisi", ingredient);
                             context.startActivity(intent);
                             break;
                         case 1 :
@@ -83,7 +68,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("harga", rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar", gambar.get(getAdapterPosition()));
                             ingredient = "ketan, mangga, santan, gula";
-                            intent.putExtra("Komposisi", ingredient);
+                            intent.putExtra("komposisi", ingredient);
                             context.startActivity(intent);
                             break;
                         case 2 :
@@ -91,7 +76,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("harga", rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar", gambar.get(getAdapterPosition()));
                             ingredient = "daging, garam, lada";
-                            intent.putExtra("Komposisi", ingredient);
+                            intent.putExtra("komposisi", ingredient);
                             context.startActivity(intent);
                             break;
                         case 3 :
@@ -99,7 +84,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("harga", rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar", gambar.get(getAdapterPosition()));
                             ingredient = "kepiting, cabai bubuk, air, gula, garam";
-                            intent.putExtra("Komposisi", ingredient);
+                            intent.putExtra("komposisi", ingredient);
                             context.startActivity(intent);
                             break;
                         case 4 :
@@ -107,7 +92,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("harga", rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar", gambar.get(getAdapterPosition()));
                             ingredient = "gula, strawberry, selai";
-                            intent.putExtra("Komposisi", ingredient);
+                            intent.putExtra("komposisi", ingredient);
                             context.startActivity(intent);
                             break;
                         case 5 :
@@ -115,7 +100,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("harga", rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar", gambar.get(getAdapterPosition()));
                             ingredient = "ayam, gula, jamur, garam, air";
-                            intent.putExtra("Komposisi", ingredient);
+                            intent.putExtra("komposisi", ingredient);
                             context.startActivity(intent);
                             break;
                     }
